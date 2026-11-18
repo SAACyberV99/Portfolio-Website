@@ -4,7 +4,6 @@ import { SOCIAL_LINKS } from "@/data";
 import {
     outlineButtonClass,
     primaryButtonClass,
-    sectionLabelClass,
 } from "@/lib/styles";
 
 export default function Hero(){

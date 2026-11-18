@@ -47,11 +47,11 @@ export default function Skills() {
             {/* Marquee */}
             <div className="mt-20 overflow-hidden border-y border-border py-4">
                 <div className="flex w-full flex-wrap gap-x-8 gap-y-3">
-                    {[...Array(3)].flatMap(() =>
+                    {[...Array(3)].flatMap((_, row) =>
                     ["React.js", "Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "Kubernetes", "AWS"].map(
                         (t, i) => (
                         <div
-                            key={`${t}-${i}`}
+                            key={`${t}-${row}-${i}`}
                             className="font-display italic text-2xl font-black text-border whitespace-nowrap hover:text-amber/30 transition-colors"
                         >
                             {t} ·

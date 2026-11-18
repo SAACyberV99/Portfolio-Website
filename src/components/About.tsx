@@ -1,5 +1,6 @@
 "use client";
 import { useRef } from "react";
+import Image from "next/image";
 import {
     cardClass,
     outlineButtonClass,
@@ -45,12 +46,12 @@ export default function About() {
                     frontend developer at KIO Mostaganem and built
                 </p>
                 <p>
-                    I have also completed 2 bootcamps "Full Stack Software Development" and "DevOps Kubernetes Certified" at
-                    Gomycode. I'm fluent in Arabic, English and French, and I'm always
+                    I have also completed 2 bootcamps &quot;Full Stack Software Development&quot; and &quot;DevOps Kubernetes Certified&quot; at
+                    Gomycode. I&apos;m fluent in Arabic, English and French, and I&apos;m always
                     exploring open source softwares and new technologies.
                 </p>
                 <p>
-                    I'm also a Linux and open source enthusiast, and i use arch linux as my daily driver OS.
+                    I&apos;m also a Linux and open source enthusiast, and i use arch linux as my daily driver OS.
                 </p>
                 </div>
 
@@ -67,7 +68,14 @@ export default function About() {
                 <div className="relative w-full aspect-square max-w-sm mx-auto lg:mx-0">
                 <div className="absolute inset-0 border border-amber/20 rounded-sm translate-x-3 translate-y-3" />
                 <div className="relative w-full h-full bg-[#111] border border-border rounded-sm flex items-center justify-center overflow-hidden">
-                    <img src="Photo.png"></img>
+                    <Image
+                        src="/Photo.png"
+                        alt="Saber Ahmed Amine"
+                        fill
+                        preload
+                        sizes="(max-width: 1024px) 100vw, 384px"
+                        className="object-cover"
+                    />
                 </div>
                 </div>
 
