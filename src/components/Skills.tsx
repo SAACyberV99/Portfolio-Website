@@ -48,7 +48,7 @@ export default function Skills() {
             <div className="mt-20 overflow-hidden border-y border-border py-4">
                 <div className="flex w-full flex-wrap gap-x-8 gap-y-3">
                     {[...Array(3)].flatMap(() =>
-                    ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "Kubernetes", "AWS"].map(
+                    ["React.js", "Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "Kubernetes", "AWS"].map(
                         (t, i) => (
                         <div
                             key={`${t}-${i}`}
