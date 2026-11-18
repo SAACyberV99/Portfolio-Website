@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Portfolio of SABER Ahmed Amine — a full-stack developer crafting modern web experiences.",
   openGraph: {
     title: "SABER Ahmed Amine — Full-Stack Developer",
-    description: "Portfolio of Your Name — a full-stack developer crafting modern web experiences.",
+    description: "Portfolio of SABER Ahmed Amine — a full-stack developer crafting modern web experiences.",
     type: "website",
   },
 };

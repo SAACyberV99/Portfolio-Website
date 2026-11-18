@@ -10,18 +10,29 @@ export const NAV_ITEMS: NavItem[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
     { label: "GitHub", href: "https://github.com/SAACyberV99", icon: "github" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/saber-ahmed-amine-217055285/", icon: "linkedin" },
+    { label: "Instagram", href: "https://www.instagram.com/cyberv99/", icon: "instagram" },
 ];
 
 export const PROJECTS: Project[] = [
     {
         id: 1,
-        title: "VibeFlix",
+        title: "KIO Landing Pages",
         description:
-        "A modern, feature-rich movie discovery application powered by The Movie Database (TMDb) API. Search, browse, sort, and explore thousands of movies with a sleek, Netflix-inspired interface.",
-        tags: ["HTML", "CSS", "JS", "IMDB API"],
-        year: "2024",
-        link: "https://saacyberv99.github.io/VibeFlix/",
-        github: "https://github.com/SAACyberV99/VibeFlix",
+        "Frontend developer at KIO Mostaganem, building the UI for product landing pages — Amber and Orelia (in progress).",
+        tags: ["Frontend", "Landing Page", "UI"],
+        year: "2026",
+        link: "https://amber.mykio.shop/f/amber",
+        featured: true,
+    },
+    {
+        id: 2,
+        title: "Arcade Hub",
+        description:
+        "A full-stack arcade game website built with MongoDB, Express.js, React (Vite), and Node.js - a MERN-stack project.",
+        tags: ["React (Vite), MERN stack", "HTML", "CSS"],
+        year: "2025",
+        link: "https://arcade-hub-mern.netlify.app/",
+        github: "https://github.com/SAACyberV99/arcade-hub-mern",
         featured: true,
     }
 ];
@@ -29,15 +40,18 @@ export const PROJECTS: Project[] = [
 export const SKILLS: Skill[] = [
     {
         category: "Frontend",
-        items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+        items: ["React.js", "Next.js", "Vite", "TypeScript", "JavaScript", "Tailwind CSS", "Redux.js", "Bootstrap", "Responsive Design"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"],
+        items: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "MySQL", "Flask", "Redis", "REST API"],
     },
     {
-        category: "Tools & DevOps",
-        items: ["Git", "Docker", "AWS", "GitHub Actions"],
+        category: "DevOps & Cloud",
+        items: ["Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI", "Nginx", "Grafana"],
+    },
+    {
+        category: "Tools & Languages",
+        items: ["Python", "C", "Java", "Qt", "SQLite", "Git", "Linux", "Bash"],
     }
 ];
-

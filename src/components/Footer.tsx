@@ -21,7 +21,7 @@ export default function Footer() {
                     SAA<span className="text-amber">.</span>
                     </a>
                     <p className="font-mono text-xs text-muted mt-1">
-                    Full-Stack Developer
+                    Full Stack Developer &amp; DevOps
                     </p>
                 </div>
 

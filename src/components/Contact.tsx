@@ -1,7 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
 import { Send, CheckCircle } from "lucide-react";
-//import { useInView } from "@/hooks/useInView";
 import {
     cardClass,
     outlineButtonClass,
@@ -14,7 +13,6 @@ type FormState = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
     const ref = useRef<HTMLDivElement>(null);
-    //const inView = useInView(ref, { threshold: 0.1 });
     const [formState, setFormState] = useState<FormState>("idle");
     const [form, setForm] = useState({ name: "", email: "", message: "" });
 
@@ -41,11 +39,9 @@ export default function Contact() {
             <div>
                 <p className={sectionLabelClass}>Contact</p>
                 <h2 className={`${sectionHeadingClass} mb-6`}>
-                Let&apos;s
+                <span className="text-amber">Contact</span>
                 <br />
-                <span className="text-amber">build</span>
-                <br />
-                together.
+                Me.
                 </h2>
                 <p className="font-body text-muted leading-relaxed max-w-sm mb-8">
                 Whether you have a project in mind or just want to connect — my
@@ -57,6 +53,17 @@ export default function Contact() {
                 >
                 SABERAA999@protonmail.com
                 </a>
+                <div className="mt-6 space-y-1 font-mono text-xs text-muted">
+                <p>
+                    <a
+                    href="tel:+213673565612"
+                    className="hover:text-paper transition-colors"
+                    >
+                    +213 673 565 612
+                    </a>
+                </p>
+                <p>Mostaganem, Mostaganem, Algeria</p>
+                </div>
             </div>
 
             {/* Right — form */}

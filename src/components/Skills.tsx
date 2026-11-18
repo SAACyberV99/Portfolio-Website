@@ -1,12 +1,10 @@
 "use client";
 import { useRef } from "react";
-//import { useInView } from "@/hooks/useInView";
 import { SKILLS } from "@/data";
 import { sectionHeadingClass, sectionLabelClass } from "@/lib/styles";
 
 export default function Skills() {
     const ref = useRef<HTMLDivElement>(null);
-    //const inView = useInView(ref, { threshold: 0.1 });
     return (
         <section id="skills" className="py-32 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto">
@@ -27,8 +25,6 @@ export default function Skills() {
                     className="bg-ink p-8 transition-all duration-500"
                     style={{
                     transitionDelay: `${i * 80}ms`,
-                    //opacity: inView ? 1 : 0,
-                    //transform: inView ? "translateY(0)" : "translateY(20px)",
                     }}
                 >
                     <h3 className="font-mono text-xs text-amber uppercase tracking-widest mb-6">
@@ -52,7 +48,7 @@ export default function Skills() {
             <div className="mt-20 overflow-hidden border-y border-border py-4">
                 <div className="flex w-full flex-wrap gap-x-8 gap-y-3">
                     {[...Array(3)].flatMap(() =>
-                    ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Docker", "AWS"].map(
+                    ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "Docker", "Kubernetes", "AWS"].map(
                         (t, i) => (
                         <div
                             key={`${t}-${i}`}

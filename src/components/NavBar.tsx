@@ -46,7 +46,7 @@ export default function NavBar(){
             href="#contact"
             className={`${primaryButtonClass} hidden px-4 py-2 text-xs md:inline-flex`}
             >
-            Hire Me
+            Contact Me
             </a>
             {/* Mobile toggle */}
             <button
@@ -95,7 +95,7 @@ export default function NavBar(){
                 onClick={() => setMenuOpen(false)}
                 className={`${primaryButtonClass} w-fit px-4 py-2 text-xs`}
                 >
-                Hire Me
+                Contact Me
                 </a>
             </li>
             </ul>
