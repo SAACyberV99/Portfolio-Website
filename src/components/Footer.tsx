@@ -57,7 +57,7 @@ export default function Footer() {
 
                 <div className="mt-8 pt-6 border-t border-border flex items-center justify-between">
                     <p className="font-mono text-xs text-border">
-                        © {new Date().getFullYear()} SABER Ahmed Amine. Built with Next.js &amp; ♥
+                        © {new Date().getFullYear()} SABER Ahmed Amine. Built with ♥
                     </p>
                     <a
                             href="#"

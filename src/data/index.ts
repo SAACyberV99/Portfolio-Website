@@ -16,9 +16,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const PROJECTS: Project[] = [
     {
         id: 1,
-        title: "KIO Landing Pages",
+        title: "Amber - KIO Landing Page",
         description:
-        "Frontend developer at KIO Mostaganem, building the UI for product landing pages — Amber and Orelia (in progress).",
+        "Amber",
         tags: ["Frontend", "Landing Page", "UI"],
         year: "2026",
         link: "https://amber.mykio.shop/f/amber",

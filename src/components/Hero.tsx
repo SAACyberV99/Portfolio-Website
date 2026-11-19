@@ -1,23 +1,17 @@
 "use client"
-import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react";
 import { SOCIAL_LINKS } from "@/data";
-import {
-    outlineButtonClass,
-    primaryButtonClass,
-} from "@/lib/styles";
+import { outlineButtonClass, primaryButtonClass} from "@/lib/styles";
 
 export default function Hero(){
     const iconMap: Record<string, React.ReactNode> = {
         github: <Github size={16} />,
         linkedin: <Linkedin size={16} />,
-        twitter: <Twitter size={16} />,
+        instagram: <Instagram size={16} />,
     };
 
     return(
-        <section
-            id="hero"
-            className="relative min-h-screen flex flex-col justify-center px-6 pt-16 overflow-hidden"
-            >
+        <section id="hero" className="relative min-h-screen flex flex-col justify-center px-6 pt-16 overflow-hidden">
             {/* Background grid */}
             <div
                 className="absolute inset-0 opacity-[0.03]"
@@ -42,7 +36,7 @@ export default function Hero(){
                 {/* Typewriter subtitle */}
                 <div className="mb-8 h-8">
                 <p className="font-mono text-sm md:text-base text-muted">
-                    Full Stack Web Developer <span className="text-amber">&amp;</span> DevOps
+                    Full Stack Developer <span className="text-amber">With</span> DevOps Skills
                     <span className="animate-pulse text-amber ml-0.5">|</span>
                 </p>
                 </div>

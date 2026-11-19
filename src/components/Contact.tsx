@@ -39,9 +39,9 @@ export default function Contact() {
             <div>
                 <p className={sectionLabelClass}>Contact</p>
                 <h2 className={`${sectionHeadingClass} mb-6`}>
-                <span className="text-amber">Contact</span>
+                Contact
                 <br />
-                Me.
+                <span className="text-amber">Me.</span>
                 </h2>
                 <p className="font-body text-muted leading-relaxed max-w-sm mb-8">
                 Whether you have a project in mind or just want to connect — my
@@ -54,14 +54,6 @@ export default function Contact() {
                 SABERAA999@protonmail.com
                 </a>
                 <div className="mt-6 space-y-1 font-mono text-xs text-muted">
-                <p>
-                    <a
-                    href="tel:+213673565612"
-                    className="hover:text-paper transition-colors"
-                    >
-                    +213 673 565 612
-                    </a>
-                </p>
                 <p>Mostaganem, Mostaganem, Algeria</p>
                 </div>
             </div>
