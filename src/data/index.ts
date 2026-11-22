@@ -16,24 +16,34 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const PROJECTS: Project[] = [
     {
         id: 1,
-        title: "Amber - KIO Landing Page",
+        title: "Amber - KIO Store Landing Page",
         description:
-        "Amber",
-        tags: ["Frontend", "Landing Page", "UI"],
+        "Amber is a modern and elegant e-commerce landing page for KIO Store shops, designed with a minimalist and fluid approach. It showcases products through modular sections. It offers an immersive shopping experience with a streamlined checkout process, a focus on visuals, and a polished layout to reinforce the brand image.",
+        tags: ["Frontend", "Landing Page", "UI", "E-Commerce", "KIO"],
         year: "2026",
         link: "https://amber.mykio.shop/f/amber",
         featured: true,
     },
     {
         id: 2,
+        title: "Orelia - KIO Store Landing Page",
+        description:
+        "Orelia is a modern and sophisticated online store landing page dedicated to a brand of jewelry, bracelets, and accessories. Designed with a clean, minimalist layout, the site showcases the product through modular sections and carefully curated visuals. It offers a seamless and immersive shopping experience, with a streamlined checkout process and a strong emphasis on branding.",
+        tags: ["Frontend", "Landing Page", "UI", "E-Commerce", "KIO"],
+        year: "2026",
+        link: "https://orelia.mykio.store/f/orelia/",
+        featured: true,
+    },
+    {
+        id: 3,
         title: "Arcade Hub",
         description:
         "A full-stack arcade game website built with MongoDB, Express.js, React (Vite), and Node.js - a MERN-stack project.",
-        tags: ["React (Vite), MERN stack", "HTML", "CSS"],
+        tags: ["React (Vite)", "MERN stack", "HTML", "CSS"],
         year: "2025",
         link: "https://arcade-hub-mern.netlify.app/",
         github: "https://github.com/SAACyberV99/arcade-hub-mern",
-        featured: true,
+        featured: false,
     }
 ];
 
@@ -44,14 +54,14 @@ export const SKILLS: Skill[] = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "MySQL", "Flask", "Redis", "REST API"],
+        items: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "MySQL", "SQLite", "Flask", "Redis", "REST API"],
     },
     {
         category: "DevOps & Cloud",
-        items: ["Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI", "Nginx", "Grafana"],
+        items: ["Linux", "Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI", "Nginx", "Prometheus", "Grafana"],
     },
     {
         category: "Tools & Languages",
-        items: ["Python", "C", "Java", "Qt", "SQLite", "Git", "Linux", "Bash"],
+        items: ["Python", "C", "Java", "Qt", "Git", "Bash"],
     }
 ];
