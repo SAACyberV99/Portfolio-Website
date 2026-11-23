@@ -58,7 +58,7 @@ export const SKILLS: Skill[] = [
     },
     {
         category: "DevOps & Cloud",
-        items: ["Linux", "Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI", "Nginx", "Prometheus", "Grafana"],
+        items: ["Linux", "Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI", "Nginx", "Prometheus", "Grafana", "Bash", "SSH"],
     },
     {
         category: "Tools & Languages",
